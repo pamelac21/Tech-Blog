@@ -1,13 +1,38 @@
-var express = require('express');
-var exphbs  = require('express-handlebars');
+const path = require('path');
+const express = require('express');
+const session = require('express-session');
+const exphbs = require('express-handlebars');
+const hbs = exphbs.create({ helpers });
 
-var app = express();
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-app.engine('handlebars', exphbs());
+const sequelize = require('./config/connection');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const sess = {
+    secret: 'secret-key',
+    cookie: {},
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+        db: sequelize
+    })
+};
+
+app.use(session(sess));
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-app.get('/', function (req, res) {
-    res.render('home');
+app.use(routes);
+
+sequelize.sync({ force: false }).then(() => {
+    app.listen(PORT, () => console.log('Now listening on 3000'));
 });
 
-app.listen(3000);
+// http://localhost:3000/
