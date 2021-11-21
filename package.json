@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seeds": "node seed/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,9 @@
     "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
     "express-session": "^1.17.2",
-    "mysql2": "^2.3.3-rc.0",
-    "sequelize": "^6.9.0"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
   },
   "devDependencies": {}
 }
