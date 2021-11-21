@@ -39,3 +39,4 @@ sequelize.sync({ force: false }).then(() => {
 });
 
 // http://localhost:3001/
+//https://secure-sands-16724.herokuapp.com/ | https://git.heroku.com/secure-sands-16724.git
