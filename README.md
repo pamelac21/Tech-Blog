@@ -2,10 +2,13 @@
 
 ## ISSUES
 
+I was unable to complete this project due to a complication caused by MySQL. `The server refuses to run on my computer` making it impossible to continue to test and work on my code. After many hours working with different people to try and resolve the problem, with no success, I must move on with my work. This note is for anyone viewing this page and myself, when I am able to revisit this project. This is a problem that NEEDS to be fixed, but I have simply run out of time and patience.
 
 
 ## Description
+
  I want to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. I will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
 
 ## User Story
 
@@ -17,6 +20,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ## Deployed Site
 
 https://secure-sands-16724.herokuapp.com/
+
 
 ## Tech Used
 
@@ -35,6 +39,7 @@ https://secure-sands-16724.herokuapp.com/
 [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
 
 [express-session](https://www.npmjs.com/package/express-session)
+
 
 ## Contributing [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
