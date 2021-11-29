@@ -48,20 +48,3 @@ https://secure-sands-16724.herokuapp.com/
 [Pamela](https://github.com/pamelac21)
 
 [Email me](pamelac021@gmail.com)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
