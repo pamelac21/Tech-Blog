@@ -26,7 +26,7 @@ router.post('/', withAuth, (req, res) => {
     });}
 });
 
-// PUT
+/*
 router.put('/:id', withAuth, (req, res) => {
   Comment.update(
     {
@@ -50,7 +50,7 @@ router.put('/:id', withAuth, (req, res) => {
       res.status(500).json(err);
     });
 });
-//
+*/
 
 router.delete('/:id', withAuth, (req, res) => {
   Comment.destroy({

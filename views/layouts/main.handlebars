@@ -9,34 +9,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header class="hero">
-      <div>
-        <nav class"nav">
-          <a class="link" href="/">Home</a>
-          <a class="link" href="/dashboard">Dashboard</a>
-          {{#if loggedIn}}
-          <a class="link" href="/" id="logout">Logout</a>
-          {{else}}
-          <a class="link" href="/login">Login</a>
-          {{/if}}
-        </nav>
-      </div>
-
-      <h1 class="app-title"><i class="fab "></i>Tech Blog</h1>
+    <header>
+      <h1>
+        <a href="/">Tech POST</a>
+      </h1>
+      <nav>
+        {{#if loggedIn}}
+        <a href="/dashboard">Dashboard</a>
+        <button id="logout" class="btn-no-style">Logout</button>
+        {{else}}
+        <a href="/dashboard">Dashboard</a>
+        <a href="/login">Login</a>
+        {{/if}}
+      </nav>
     </header>
-
     <main>
       {{{ body }}}
     </main>
+    <footer>
+      GET the Latest Tech News
+    </footer>
   </div>
 
-  {{#if loggedIn}}
-  <script src="/javascript/logout.js"></script>
-  {{/if}}
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
 
 </body>
 
