@@ -26,8 +26,8 @@ router.get('/', (req, res) => {
       }
     ]
   })
-    .then(dbPostData => {
-      const posts = dbPostData.map(post => post.get({ plain: true }));
+    .then(postData => {
+      const posts = postData.map(post => post.get({ plain: true }));
 
       res.render('homepage', {
         posts,
@@ -68,13 +68,13 @@ router.get('/post/:id', (req, res) => {
       }
     ]
   })
-    .then(dbPostData => {
-      if (!dbPostData) {
+    .then(postData => {
+      if (!postData) {
         res.status(404).json({ message: 'No post found with this id' });
         return;
       }
 
-      const post = dbPostData.get({ plain: true });
+      const post = postData.get({ plain: true });
 
       res.render('single-post', {
         post,
