@@ -24,6 +24,8 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 https://secure-sands-16724.herokuapp.com/
 
+![ss-tech_news](https://user-images.githubusercontent.com/87335354/154404224-7f1f656b-2758-4c58-8de6-6029a8d1503b.jpg)
+
 
 ## Tech Used
 
