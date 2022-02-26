@@ -131,6 +131,10 @@ main {
     background-color: #d41414;
 }
 
+.delete-comment-btn {
+    background-color: #d41414;
+}
+
 span.user-id  {
     color: #e9c46a;
 }
