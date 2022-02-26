@@ -1,12 +1,5 @@
 # Tech Blog
 
-## ISSUES
-
-I was unable to complete this project due to a complication caused by MySQL. `The server refuses to run on my computer` making it impossible to continue to test and work on my code. After many hours working with different people to try and resolve the problem (with no success), I must move on with my work. This note is for anyone viewing this page and myself, when I am able to revisit this project. This is a problem that NEEDS to be fixed, but I have simply run out of time.
-
-I did go ahead and deploy to Heroku and added the JawsDB so that will be ready when I am able to continue my work.
-
-UPDATE: When I was able to circle back to this project with the server up and running, it came together very quickly! 
 
 ## Description
 
