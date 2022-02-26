@@ -1,12 +1,13 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
 
+// get all posts for homepage
 router.get('/', (req, res) => {
   console.log(req.session);
   Post.findAll({
     attributes: [
       'id',
-      'post_url',
+      'url',
       'title',
       'body',
       'created_at',
@@ -48,7 +49,7 @@ router.get('/post/:id', (req, res) => {
     },
     attributes: [
       'id',
-      'post_url',
+      'url',
       'title',
       'body',
       'created_at',

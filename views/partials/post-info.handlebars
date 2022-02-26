@@ -3,8 +3,8 @@
         <span class="user-id"><i class="bi bi-person-circle"></i> {{user.username}} posted on {{ format_date
             created_at}}</span> <br>
         <a href="/post/{{id}}">{{title}}
-            <a href="{{post_url}}" target="_blank">
-                <span>{{format_url post_url}}</span>
+            <a href="{{url}}" target="_blank">
+                <span>{{format_url url}}</span>
             </a>
         </a>
         <p class="post-body">{{body}}</p>
