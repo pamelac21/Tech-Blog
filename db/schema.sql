@@ -1,3 +1,2 @@
 DROP DATABASE IF EXISTS techdb;
 CREATE DATABASE techdb;
-USE techdb;
