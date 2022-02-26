@@ -5,7 +5,7 @@ const { Post, User, Comment } = require('../../models');
 
 // get all users
 router.get('/', (req, res) => {
-  console.log('======================');
+
   Post.findAll({
     attributes: [
       'id',
@@ -77,7 +77,7 @@ router.get('/:id', (req, res) => {
     });
 });
 
-router.post('/', withAuth, (req, res) => {
+router.post('/', (req, res) => {
   Post.create({
     title: req.body.title,
     body: req.body.body,
