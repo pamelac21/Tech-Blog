@@ -5,7 +5,6 @@ const postData = [{
         body: 'Praesent ultrices orci ut augue condimentum eleifend.',
         url: 'http://google.ca/nam/nulla/integer.aspx',
         user_id: 1
-
     },
     {
         title: 'Title Two',
