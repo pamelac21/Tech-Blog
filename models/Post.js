@@ -13,16 +13,16 @@ Post.init(
         },
         title: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: false
         },
         body: {
             type: DataTypes.STRING,
-            allowNull: false,
-        },
+            allowNull: false
+        }, 
         post_url: {
             type: DataTypes.STRING,
             allowNull: true
-        },
+        }, 
         user_id: {
             type: DataTypes.INTEGER,
             references: {
