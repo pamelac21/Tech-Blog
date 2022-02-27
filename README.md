@@ -41,6 +41,6 @@ https://secure-sands-16724.herokuapp.com/
 
 ## Contributing [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com)
 
-[Pamela](https://github.com/pamelac21)
+[Github](https://github.com/pamelac21)
 
 [Email me](pamelac021@gmail.com)
