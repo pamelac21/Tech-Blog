@@ -49,7 +49,7 @@ Enter password. <br />
   `npm start`
 
 ## Usage
-```Once the server is started, visit localhost:3001. Users can sign up and log in. Once logged in, they will have two new options in the navigation bar. `dashboard` will take them to a page where they can create a new post, view previous posts (which they can select to edit or delete), or they can select `logout`. If they do not wish to make a post they can visit other users posts by either clicking on the title or comments. Here the user can see all the comments for this post and they can leave one of their own. If the user wishes to return to the homepage they can click on 'Tech POST' to take them back to the home page.
+```Once the server is started, visit localhost:3001. Users can sign up and log in. Once logged in, they will have two new options in the navigation bar. `dashboard` will take them to a page where they can create a new post, view previous posts (which they can select to edit or delete), or they can select `logout` . If they do not wish to make a post they can visit other users posts by either clicking on the title or comments. Here the user can see all the comments for this post and they can leave one of their own. If the user wishes to return to the homepage they can click on 'Tech POST' to take them back to the home page.
 
 
 ## Tech Used
