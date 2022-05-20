@@ -44,3 +44,8 @@ https://secure-sands-16724.herokuapp.com/
 [Github](https://github.com/pamelac21)
 
 [Email me](pamelac021@gmail.com)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
